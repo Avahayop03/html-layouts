@@ -1,0 +1,52 @@
+body > * {
+   
+    border: 1px solid green;  
+    margin: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header {
+    padding: 20px;
+    height: 5vh;  
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+    height: 5vh;  
+
+
+}
+main {
+    padding: 5px;
+    height: 80vh;
+   
+}
+
+aside {
+    float:left;
+    width: 30%;
+    height: 80vh;
+    border: 1px solid green;
+  
+}
+
+section {   
+    float:right;
+    width: 50%;
+    height: 80vh;
+    border: 1px solid green;
+    
+   
+}
+footer {
+    padding: 20px;
+    height: 5vh;  
+   
+  
+}
+
+
+
+
