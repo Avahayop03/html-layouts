@@ -1,6 +1,6 @@
 body > * {
    
-    border: 1px solid green;  
+    border: 2px solid green;  
     margin: 10px;
     text-align: center;
     font-size: 2rem;
@@ -21,26 +21,26 @@ nav {
 main {
     padding: 5px;
     height: 80vh;
-   
+    text-align: center;
+    line-height: 500px;
+    border: none;
 }
 
 aside {
     float:left;
     width: 49.5%;
     height: 80vh;
-    border: 1px solid green;
-    text-align: center;
-    line-height: 500px;
+    border: 2px solid green;
+   
   
 }
 
 section {   
     float:right;
-    width: 50%;
+    width: 49%;
     height: 80vh;
-    border: 1px solid green;
-    text-align: center;
-    line-height: 500px;
+    border: 2px solid green;
+   
     
    
 }
