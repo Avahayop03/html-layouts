@@ -1,37 +1,27 @@
-body > * {
-   
-    border: 2px solid green;  
-    margin: 10px;
+header, nav, footer, .container div{
+    height: 10vh;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: 2rem;
-}
+    border: 2px solid green;
 
-header {
-    padding: 20px;
-    height: 5vh;  
-    text-align: center;
-}
-
-nav {
-    padding: 20px;
-    height: 5vh;  
-
-
+    margin: 5px;
 
 }
-main {
-    padding: 3px;
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    width: 100%;
     height: 65vh;
-    text-align: center;
-    padding-top: 500px;
 }
 
-footer {
-    padding: 20px;
-    height: 5vh;  
-   
+
+
   
-}
 
 
 

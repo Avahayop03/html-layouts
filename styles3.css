@@ -1,51 +1,31 @@
-body *{
-    border: 2px solid green ; 
-    height: 100px;
-    margin: 5px;
-    text-align: center;
+body > * {
     font-size: 2rem;
-    
-}
-header {
-    padding: 20px;
-    height: 5vh;  
-   
 }
 
-
-nav{
-    padding: 20px;
-    height: 5vh;  
-    
+header, nav, footer, .container aside,section {
+    display: flex;
+    border: 2px solid green;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
 
-main{
-    width: 100%;
-    height:100vh;
-    display: inline-block;
-    border: none;
-    text-align: center;
-    line-height: 500px;
-    
-    
-}
- 
-aside{
-    float: left;
-    width: 30%;
-    height: 100vh;
-    
+header,nav, footer {
+    height: 10vh;
 }
 
-section{
-    float: left;
-    width: 35%;
-    height: 100vh;
-    margin-left: 10px;
-    margin-right: 10px;
-
+.container {
+    display: flex;
+    flex-direction: row;
 }
-footer {
-    padding: 20px;
-    height: 5vh;  
+
+.container aside,
+section {
+    flex-grow: 1;
+    height: 60vh;
+}
+
+.container aside:nth-child(2),
+section {
+    flex-grow: 2;
 }
